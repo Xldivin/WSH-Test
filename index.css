@@ -1,0 +1,117 @@
+.home{
+ position: absolute;
+ top: 32%; 
+ left: 150px;
+}
+.header{
+    position: absolute;
+    top: 4%
+}
+.header1{
+    position: absolute; 
+    top: 14%
+}
+.search{
+    margin-right: 50px;
+}
+.telephone{
+    margin-right: 20px;
+}
+.button1{
+    background-color: #FF4600;
+}
+.footer{
+    background-color: black;
+     height: 50vh; 
+     margin-top: 100px;
+}
+.left{
+    margin-left: 10px;
+}
+.solutions{
+    margin-top: 50px;
+}
+.solutions1{
+    margin-top: 50px;
+}
+.shipcare{
+    margin-top: 50px
+}
+.footer2{
+    height: 50px;
+    background-color: #FF4600;
+}
+
+@media only screen and (max-width: 425px){
+    .home{
+      left: 50px;
+    }
+    .telephone{
+        margin-right: 40px;
+    }
+    .image1{
+        width: 70px;
+        height: 70px;
+    }
+    .header2{
+        display: none;
+    }
+    .phone{
+        margin-right: 30px;
+    }
+    .header{
+        width: 350px;
+    }
+    .header5{
+        width: 400px;
+        margin-left: 50px;
+    }
+    .search{
+        margin-right: 20px;
+    }
+    .swiper{
+        height: 15em;
+    }
+    .oneswipper{
+        width: 30px;
+    }
+    .phase1{
+        margin-top: 5rem ;
+    }
+    .phase2{
+        margin-top: 5rem ;
+    }
+    .phase3{
+        margin-top: 5rem;
+    }
+    .phase{
+        width: 500px;
+    }
+    .solutions1{
+      display: none;
+    }
+    .footer{
+        height: 30rem;
+    }
+    .shipcare{
+       width: 200px;
+    }
+    .solutions{
+        width: 200px;
+    }
+    .paragraph{
+        font-size: small;
+    }
+    .left{
+        font-size: smaller;
+    }
+    .rights{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .image3{
+        width: 200px;
+    }
+}
