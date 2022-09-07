@@ -1,4 +1,5 @@
 const button = document.getElementById('tap');
+const taps = document.getElementById('tapp')
 const div = document.querySelector('.show');
 const menu = document.querySelector('#menu-icon');
 const menuIcon = document.querySelector('.navMobile');
@@ -38,7 +39,4 @@ menuRemover.onclick = () => {
     navbar.classList.toggle('active');
     menuIcon.classList.toggle('off')
 
-}
-window.onscroll = () => {
-    navbar.classList.remove('active');
 }

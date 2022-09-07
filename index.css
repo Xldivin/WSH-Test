@@ -1,4 +1,10 @@
-
+@font-face {
+    font-family: "CustomFont";
+    src: url("./Font/Barna-Regular.ttf");
+}
+*{
+    font-family: "CustomFont";
+}
 .home{
  position: absolute;
  top: 33%; 
@@ -11,7 +17,7 @@
     border-bottom: 1px solid white;
 }
 .header5{
-    font-weight: bold;
+    font-weight: 900;
 }
 .header1{
     position: absolute; 
@@ -20,7 +26,7 @@
     width: 68rem;
 }
 .winch{
-    font-weight: 600;
+    font-weight: 900;
     width: 250px;
     margin-top: 40px;
 }
@@ -34,7 +40,7 @@
 }
 .button1{
     background-color: #FF4600;
-    margin-top: 30px;
+    margin-top: 48px;
 }
 .trust{
     font-weight: bold;
@@ -43,6 +49,7 @@
 .textsmh{
     width: 50rem;
     font-weight: bold;
+    font-family: "CustomFont";
 }
 .Footer{
     background-image: url(./assets/Rectangle\ 202\ \(2\).png);
@@ -69,13 +76,11 @@
     height: 50px;
     background-color: #FF4600;
 }
-.oneswipper{
-    border-bottom: 2px dotted #FF4600;
-}
 .border2{
     border-right: 2px dotted #FF4600;
     border-left: 2px dotted #FF4600;
     text-align: center;
+    border-bottom: 2px dotted #FF4600;
 }
 .tableheader{
     border-bottom: 2px solid #FF4600;
@@ -83,7 +88,7 @@
 .axel{
     margin-top: 70px;
     margin-bottom: 70px;
-    width: 1200px;
+    width: 1550px;
     height: 100%;
 }
 .tablehor{
@@ -101,6 +106,18 @@
     border-style: solid;
     border-color: #FF4600;
     background-color: #FF4600;
+    width: 200px;
+    color: #fff;
+    margin-top: 2px;
+    height: 3rem;
+    position: relative;
+    top: 1px;
+    text-align: center;
+    padding-top: 0.5rem;
+    font-size: 25px;
+    font-weight: 900;
+}
+.kana{
     width: 200px;
     color: #fff;
     margin-top: 2px;
@@ -158,6 +175,9 @@
     top:10rem;
     left:10rem
 }
+.strive{
+    width: 415px;
+}
 .vl{
     border-left: 1px solid white;
     height: 67px;
@@ -165,7 +185,7 @@
     margin-top: 12rem;
 }
 .image1{
-    margin-bottom: 10px;
+    margin-bottom: 18px;
 }
 .image3{
     height: 200px;
@@ -180,7 +200,10 @@
 @media only screen and (max-width: 425px){
     .home{
       left: 20px;
-      top: 22%;
+      top: 29%;
+    }
+    .strive{
+        width: 300px;
     }
     .oneswipper{
         width: 20px;
@@ -218,7 +241,7 @@
     }
     .shipcare{
        width: 300px;
-       margin-left: 80px;
+       margin-left: 30px;
     }
     .solutions{
         width: 300px;
@@ -243,6 +266,13 @@
         left: 22rem;
         font-size: 30px;
         color: white;
+    }
+    .sol-col{
+        margin-right: 150px;
+    }
+    .solutions1{
+       position: relative;
+       right: 90px;
     }
     .navMobile1{
         display: flex;
@@ -269,7 +299,7 @@
     }
     .shm{
         margin-bottom: 2rem;
-        margin-right: 4rem;
+        margin-right: 150px;
     }
     .textsmh{
         width: 200px;
