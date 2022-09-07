@@ -364,3 +364,19 @@
         left: 20rem;
     }
 }
+@media only screen and (max-width: 390px){
+    .text{
+        width: 200px;
+    }
+    .textsmh{
+        width: 190px;
+    }
+}
+@media only screen and (max-width: 414px){
+    .text{
+        width: 200px;
+    }
+    .textsmh{
+        width: 190px;
+    }
+}
