@@ -50,10 +50,37 @@
 .oneswipper{
     border-bottom: 2px dotted #FF4600;
 }
-.secondswipper{
-    border-right: 2px dotted gray;
-    border-left: 2px dotted gray;
-    line-height: 20px;
+.border2{
+    border-right: 2px dotted #FF4600;
+    border-left: 2px dotted #FF4600;
+}
+.tableheader{
+    border-bottom: 2px solid #FF4600;
+}
+.axel{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.tablehor{
+    overflow-x: auto;
+}
+.tabler{
+    width: 500px;
+    height: 150px;
+}
+.tablesmh{
+    width: 1200px;
+}
+.head{
+    border-style: solid;
+    background-color: #FF4600;
+    width: 200px;
+    color: #fff;
+    margin-top: 2px;
+    height: 3rem;
+    position: relative;
+    top: 3px;
+    text-align: center;
 }
 .navMobile.off{
     display: none;
