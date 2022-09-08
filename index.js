@@ -1,6 +1,6 @@
 const button = document.getElementById('tap');
 const taps = document.getElementById('tapp')
-const div = document.querySelector('.show');
+const div = document.getElementById('show1');
 const menu = document.querySelector('#menu-icon');
 const menuIcon = document.querySelector('.navMobile');
 const menuRemover = document.querySelector('#menu-icon1');
@@ -33,7 +33,7 @@ var swiper = new Swiper(".mySwiper", {
         el: ".swiper-scrollbar",
         hide: true,
     },
-  });
+});
 
 
 
