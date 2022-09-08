@@ -5,13 +5,20 @@ const menu = document.querySelector('#menu-icon');
 const menuIcon = document.querySelector('.navMobile');
 const menuRemover = document.querySelector('#menu-icon1');
 const navbar = document.querySelector('.MobileNavbar');
+const dash = document.querySelector('.common');
 
 button.addEventListener('click',() =>{
     if(div.style.display == 'none'){
         div.style.display = 'flex';
+        button.style.display = 'none'
+        dash.style.display = 'block'
     }
-    else{
-        div.style.display = 'none'
+})
+dash.addEventListener('click',() =>{
+    if(div.style.display == 'flex'){
+        div.style.display = 'none';
+        button.style.display = 'block'
+        dash.style.display = 'none'
     }
 })
 
