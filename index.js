@@ -6,9 +6,11 @@ const menuIcon = document.querySelector('.navMobile');
 const menuRemover = document.querySelector('#menu-icon1');
 const navbar = document.querySelector('.MobileNavbar');
 const dash = document.querySelector('.common');
+var styles = window.getComputedStyle(div);
 
 button.addEventListener('click',() =>{
-    if(div.style.display == 'none'){
+    if(styles.getPropertyValue("display")== "none")
+    {
         div.style.display = 'flex';
         button.style.display = 'none'
         dash.style.display = 'block'

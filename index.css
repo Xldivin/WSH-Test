@@ -5,6 +5,9 @@
 *{
     font-family: "CustomFont";
 }
+::-webkit-scrollbar {
+    display: none;
+}
 .home{
  position: absolute;
  top: 33%; 
@@ -174,7 +177,7 @@
 .tableheader{
     border-bottom: 2px solid #FF4600;
 }
-.axel{
+.table-h-smh{
     margin-top: 70px;
     margin-bottom: 70px;
     width: 1550px;
